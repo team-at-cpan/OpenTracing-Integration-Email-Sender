@@ -33,8 +33,6 @@ use Class::Method::Modifiers qw(install_modifier);
 
 use OpenTracing::DSL qw(:v1);
 
-use Log::Any qw($log);
-
 with qw(OpenTracing::Integration);
 
 my $loaded;
