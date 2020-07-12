@@ -6,6 +6,7 @@ requires 'Log::Any';
 requires 'indirect';
 
 on 'test' => sub {
+    requires 'Email::Sender';
     requires 'Email::Sender::Transport::Test';
     requires 'Test::More', '>= 0.98';
 };
