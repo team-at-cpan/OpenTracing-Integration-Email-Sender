@@ -33,6 +33,7 @@ my %WriteMakefileArgs = (
     "warnings" => 0
   },
   "TEST_REQUIRES" => {
+    "Email::Sender" => 0,
     "Email::Sender::Transport::Test" => 0,
     "Email::Simple" => 0,
     "Email::Simple::Creator" => 0,
@@ -55,6 +56,7 @@ my %WriteMakefileArgs = (
 my %FallbackPrereqs = (
   "Class::Method::Modifiers" => 0,
   "Email::Address::XS" => 0,
+  "Email::Sender" => 0,
   "Email::Sender::Simple" => 0,
   "Email::Sender::Transport::Test" => 0,
   "Email::Simple" => 0,
